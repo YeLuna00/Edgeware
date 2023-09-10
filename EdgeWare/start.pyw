@@ -136,7 +136,7 @@ try:
     from PIL import Image
 except:
     logging.warning('failed to import pillow module')
-    pip_install('pillow')
+    pip_install('Pillow==9.5.0')
     from PIL import Image
 
 try:
